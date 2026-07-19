@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Festival de la Vézère | Château du Saillant</title>
+  <meta name="description" content="Le Festival de la Vézère — musique classique et opéra en Corrèze, né au Château du Saillant." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,400;0,500;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css?v=2" />
+</head>
+<body>
+
+<!-- ── Navigation ── -->
+<nav>
+  <div class="logo"><a href="index.html">Château du Saillant</a></div>
+  <div class="nav-right">
+    <ul id="navLinks">
+      <li><a href="index.html#histoire" data-fr="Histoire" data-en="History">Histoire</a></li>
+      <li><a href="index.html#infos"    data-fr="Informations" data-en="Information">Informations</a></li>
+      <li><a href="index.html#visites"  data-fr="Visites" data-en="Visits">Visites</a></li>
+      <li><a href="en-marge.html">En Marge</a></li>
+      <li><a href="festival-vezere.html" class="active">Festival de la Vézère</a></li>
+    </ul>
+    <div class="lang-toggle">
+      <button class="lang-btn active" onclick="setLang('fr')">FR</button>
+      <span class="lang-sep">/</span>
+      <button class="lang-btn"        onclick="setLang('en')">EN</button>
+    </div>
+    <button class="nav-toggle" id="navToggle" aria-label="Menu" aria-expanded="false" aria-controls="navLinks">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- ── Hero ── -->
+<div class="event-hero has-image" style="background-image: linear-gradient(to bottom, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.65) 100%), url('images/vezere-hero.jpg');">
+  <div>
+    <p class="subtitle" data-fr="Musique classique et opéra en Corrèze" data-en="Classical music and opera in Corrèze">
+      Musique classique et opéra en Corrèze
+    </p>
+    <h1>Festival de la Vézère</h1>
+    <div class="dates">Château du Saillant · Corrèze</div>
+  </div>
+</div>
+
+<!-- ── Meta strip ── -->
+<div class="section-pad" style="padding-top:0; padding-bottom:0;">
+  <div class="event-meta">
+    <div class="event-meta-item">
+      <div class="label" data-fr="Genre" data-en="Genre">Genre</div>
+      <div class="value" data-fr="Musique classique &amp; opéra" data-en="Classical music &amp; opera">Musique classique &amp; opéra</div>
+    </div>
+    <div class="event-meta-item">
+      <div class="label" data-fr="Prochaine édition" data-en="Next edition">Prochaine édition</div>
+      <div class="value">20 – 25 juillet 2026</div>
+    </div>
+    <div class="event-meta-item">
+      <div class="label" data-fr="Lieu fondateur" data-en="Founding venue">Lieu fondateur</div>
+      <div class="value">Château du Saillant</div>
+    </div>
+    <div class="event-meta-item">
+      <div class="label" data-fr="Billetterie" data-en="Tickets">Billetterie</div>
+      <div class="value" data-fr="Sur réservation" data-en="By reservation">Sur réservation</div>
+    </div>
+  </div>
+</div>
+
+<!-- ── Une histoire de famille ── -->
+<section>
+  <div class="section-pad">
+    <p class="section-label" data-fr="Un château, une rivière et la musique" data-en="A château, a river and music">Un château, une rivière et la musique</p>
+    <h2 data-fr="Une histoire de famille" data-en="A family story">Une histoire de famille</h2>
+    <div class="event-body">
+      <div>
+        <p class="lead"
+           data-fr="Le Festival de la Vézère prend sa source au Château du Saillant, un domaine empli de charme et de poésie qui lui a donné son souffle, son énergie et son âme."
+           data-en="The Festival de la Vézère has its source at the Château du Saillant, an estate full of charm and poetry that gave it its breath, its energy and its soul.">
+          Le Festival de la Vézère prend sa source au Château du Saillant, un domaine empli de charme et de poésie qui lui a donné son souffle, son énergie et son âme.
+        </p>
+        <p data-fr="Dès 1320, la dynastie de Lasteyrie du Saillant occupe le domaine dont la bâtisse fut construite un siècle plus tôt. Véritable forteresse, elle compte alors dix-sept tours, un pont-levis et des douves, dont il ne reste aujourd'hui que des traces et quelques remparts. Une vingtaine de générations s'y succèdent jusqu'en 1854, date à laquelle la demeure est vendue."
+           data-en="From 1320, the Lasteyrie du Saillant dynasty occupied the estate, whose building had been constructed a century earlier. A genuine fortress, it then had seventeen towers, a drawbridge and moats, of which only traces and a few ramparts remain today. Some twenty generations succeeded one another there until 1854, when the residence was sold.">
+          Dès 1320, la dynastie de Lasteyrie du Saillant occupe le domaine dont la bâtisse fut construite un siècle plus tôt. Véritable forteresse, elle compte alors dix-sept tours, un pont-levis et des douves, dont il ne reste aujourd'hui que des traces et quelques remparts. Une vingtaine de générations s'y succèdent jusqu'en 1854, date à laquelle la demeure est vendue.
+        </p>
+        <p data-fr="Mais elle ne quittera pas le giron familial bien longtemps. Après une génération passée hors de la famille et grâce à un heureux hasard, Guy de Lasteyrie du Saillant, descendant direct des propriétaires, et sa femme Isabelle rachètent le château en 1970. La demeure historique retrouve alors peu à peu ses lettres de noblesse et fait l'objet d'innombrables travaux."
+           data-en="But it would not leave the family fold for long. After one generation spent outside the family, and thanks to a happy coincidence, Guy de Lasteyrie du Saillant — a direct descendant of the original owners — and his wife Isabelle bought the château back in 1970. The historic residence gradually recovered its former splendour, the subject of countless restoration works.">
+          Mais elle ne quittera pas le giron familial bien longtemps. Après une génération passée hors de la famille et grâce à un heureux hasard, Guy de Lasteyrie du Saillant, descendant direct des propriétaires, et sa femme Isabelle rachètent le château en 1970. La demeure historique retrouve alors peu à peu ses lettres de noblesse et fait l'objet d'innombrables travaux.
+        </p>
+        <p data-fr="Le parc qui entoure le château abrite de très beaux arbres : séquoias, chênes, érables, tulipiers de Virginie, frênes et un Ginkgo Biloba, qui est sans doute l'un des plus anciens de France."
+           data-en="The park surrounding the château is home to very fine trees: sequoias, oaks, maples, tulip trees, ash trees, and a Ginkgo Biloba believed to be one of the oldest in France.">
+          Le parc qui entoure le château abrite de très beaux arbres : séquoias, chênes, érables, tulipiers de Virginie, frênes et un Ginkgo Biloba, qui est sans doute l'un des plus anciens de France.
+        </p>
+      </div>
+      <div class="artist-card">
+        <img src="images/vezere-fondateurs.jpg" alt="Guy et Isabelle de Lasteyrie du Saillant" />
+        <p class="section-label" data-fr="Fondateurs" data-en="Founders">Fondateurs</p>
+        <h3>Guy &amp; Isabelle de Lasteyrie du Saillant</h3>
+        <p data-fr="En 1970, Guy et Isabelle de Lasteyrie du Saillant rachètent le château familial et lui redonnent vie. C'est de cet attachement profond au domaine et à la rivière qui le borde qu'est né, quelques années plus tard, le Festival de la Vézère."
+           data-en="In 1970, Guy and Isabelle de Lasteyrie du Saillant bought back the family château and brought it back to life. It was from this deep attachment to the estate and the river running alongside it that the Festival de la Vézère was born a few years later.">
+          En 1970, Guy et Isabelle de Lasteyrie du Saillant rachètent le château familial et lui redonnent vie. C'est de cet attachement profond au domaine et à la rivière qui le borde qu'est né, quelques années plus tard, le Festival de la Vézère.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── La musique dans un lieu d'exception ── -->
+<div class="band-paper">
+  <div class="section-pad" style="padding-top:0; padding-bottom:0;">
+    <p class="section-label" data-fr="Un domaine vivant" data-en="A living estate">Un domaine vivant</p>
+    <h2 data-fr="La musique dans un lieu d'exception" data-en="Music in an exceptional setting">La musique dans un lieu d'exception</h2>
+    <div class="event-body">
+      <div>
+        <p data-fr="La Grange du Château du Saillant, où le silence n'a jamais prise, portée par le bruissement du vent et l'écoulement de l'eau, est devenue le lieu de toutes les rencontres, dans une célébration intimiste et féérique où les notes semblent trouver un écho naturel."
+           data-en="The Grange of the Château du Saillant — where silence never quite settles, carried instead by the rustle of the wind and the flow of water — has become the setting for every encounter, in an intimate, enchanting celebration where the music seems to find a natural echo.">
+          La Grange du Château du Saillant, où le silence n'a jamais prise, portée par le bruissement du vent et l'écoulement de l'eau, est devenue le lieu de toutes les rencontres, dans une célébration intimiste et féérique où les notes semblent trouver un écho naturel.
+        </p>
+        <p data-fr="On prend plaisir à flâner dans le jardin à la française orné de buis taillés sur les pourtours de la façade principale et qui se compose également de rosiers. Le domaine du Saillant est un site enchanteur, entouré de vastes douves d'eaux alimentées par de joyeuses cascades que l'on aime traverser par un petit pont, nous aventurant sur une petite île à l'atmosphère romantique et dépaysante."
+           data-en="Visitors love to wander through the French formal garden, lined with clipped box hedges along the main façade and planted with roses. The Saillant estate is an enchanting site, surrounded by vast moats fed by cheerful cascades, which visitors love to cross by a small bridge, venturing onto a small island with a romantic, otherworldly atmosphere.">
+          On prend plaisir à flâner dans le jardin à la française orné de buis taillés sur les pourtours de la façade principale et qui se compose également de rosiers. Le domaine du Saillant est un site enchanteur, entouré de vastes douves d'eaux alimentées par de joyeuses cascades que l'on aime traverser par un petit pont, nous aventurant sur une petite île à l'atmosphère romantique et dépaysante.
+        </p>
+        <p data-fr="Un havre de paix naturel où diverses plantations typiques de cette région s'épanouissent à l'instar des rhododendrons, tilleuls et osmondes royales. Telle une évidence à l'attachement profond à ces lieux, le festival porte le nom de la Vézère, la rivière qui serpente au pied de la maison."
+           data-en="A natural haven of peace where plants typical of the region flourish, from rhododendrons to lime trees and royal ferns. As an unmistakable sign of a deep attachment to this place, the festival takes its name from the Vézère, the river that winds at the foot of the house.">
+          Un havre de paix naturel où diverses plantations typiques de cette région s'épanouissent à l'instar des rhododendrons, tilleuls et osmondes royales. Telle une évidence à l'attachement profond à ces lieux, le festival porte le nom de la Vézère, la rivière qui serpente au pied de la maison.
+        </p>
+      </div>
+      <div class="photo-block">
+        <img src="images/vezere-concert.jpg" alt="Public du Festival de la Vézère devant le Château du Saillant" />
+        <p class="caption" data-fr="Un concert du Festival de la Vézère devant le château" data-en="A Festival de la Vézère concert in front of the château">Un concert du Festival de la Vézère devant le château</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ── Chapelle Chagall ── -->
+<section>
+  <div class="section-pad">
+    <p class="section-label" data-fr="Un écrin pour la musique" data-en="A setting for music">Un écrin pour la musique</p>
+    <h2 data-fr="Une chapelle avec des vitraux de Chagall" data-en="A chapel with Chagall stained-glass windows">Une chapelle avec des vitraux de Chagall</h2>
+    <div class="event-body">
+      <div>
+        <p data-fr="Le village du Saillant compte également une chapelle remarquable, véritable emblème de la région. C'est l'une des rares chapelles au monde à être entièrement décorée par des vitraux de Chagall."
+           data-en="The village of Le Saillant is also home to a remarkable chapel, a true emblem of the region. It is one of the very few chapels in the world entirely decorated with Chagall stained-glass windows.">
+          Le village du Saillant compte également une chapelle remarquable, véritable emblème de la région. C'est l'une des rares chapelles au monde à être entièrement décorée par des vitraux de Chagall.
+        </p>
+        <p data-fr="Souvent comparé à Pablo Picasso, l'artiste a en effet imaginé les six vitraux de l'église, lesquels ont été exécutés par le maître verrier Charles Marcq entre 1978 et 1981. Teintés de bleus ou en grisaille, ils représentent le paradis, l'agneau, la vigne, le poisson et, pour le vitrail de l'oculus, un bouquet symbole d'amour, de paix et de sérénité."
+           data-en="Often compared to Pablo Picasso, the artist designed the church's six stained-glass windows, which were executed by master glassmaker Charles Marcq between 1978 and 1981. Tinted in blues or in grisaille, they depict paradise, the lamb, the vine, the fish, and, in the oculus window, a bouquet symbolising love, peace and serenity.">
+          Souvent comparé à Pablo Picasso, l'artiste a en effet imaginé les six vitraux de l'église, lesquels ont été exécutés par le maître verrier Charles Marcq entre 1978 et 1981. Teintés de bleus ou en grisaille, ils représentent le paradis, l'agneau, la vigne, le poisson et, pour le vitrail de l'oculus, un bouquet symbole d'amour, de paix et de sérénité.
+        </p>
+        <p data-fr="Un site intime qui fait aussi office d'écrin idéal aux mélodieuses vibrations du Festival."
+           data-en="An intimate setting that also serves as the ideal showcase for the festival's melodious vibrations.">
+          Un site intime qui fait aussi office d'écrin idéal aux mélodieuses vibrations du Festival.
+        </p>
+      </div>
+      <div class="photo-block">
+        <img src="images/vezere-chapelle.jpg" alt="Jeune violoniste devant les vitraux de Chagall dans la chapelle du Saillant" />
+        <p class="caption" data-fr="Récital dans la chapelle, devant les vitraux de Marc Chagall" data-en="A recital in the chapel, before Marc Chagall's stained-glass windows">Récital dans la chapelle, devant les vitraux de Marc Chagall</p>
+      </div>
+    </div>
+
+    <div class="photo-trio">
+      <div class="photo-block">
+        <img src="images/vezere-riviere.jpg" alt="La Vézère au pied du château" />
+        <p class="caption" data-fr="La Vézère, au pied du château" data-en="The Vézère, at the foot of the château">La Vézère, au pied du château</p>
+      </div>
+      <div class="photo-block">
+        <img src="images/vezere-douves.jpg" alt="Public réuni près des douves et de la cascade" />
+        <p class="caption" data-fr="Entracte au bord des douves" data-en="Intermission by the moat">Entracte au bord des douves</p>
+      </div>
+      <div class="photo-block">
+        <img src="images/vezere-jardin.jpg" alt="Champ de fleurs sauvages dans le parc du château" />
+        <p class="caption" data-fr="Le parc du château, en fleurs" data-en="The château's park, in bloom">Le parc du château, en fleurs</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Contact / lien externe ── -->
+<div class="rsvp-band">
+  <div class="rsvp-band-inner">
+    <p class="section-label" data-fr="Le festival aujourd'hui" data-en="The festival today">Le festival aujourd'hui</p>
+    <h2 style="border-bottom:none; padding-bottom:0;" data-fr="Programme et réservations" data-en="Programme &amp; tickets">Programme et réservations</h2>
+    <p style="color:var(--gray); font-size:0.92rem;"
+       data-fr="Chaque été, le Festival de la Vézère réunit près de 1 000 concerts et représentations dans plus de 35 communes et sites historiques de Corrèze. Retrouvez la programmation complète et la billetterie sur son site dédié."
+       data-en="Every summer, the Festival de la Vézère brings together nearly 1,000 concerts and performances across more than 35 towns and historic sites in Corrèze. Find the full programme and tickets on its dedicated website.">
+      Chaque été, le Festival de la Vézère réunit près de 1 000 concerts et représentations dans plus de 35 communes et sites historiques de Corrèze. Retrouvez la programmation complète et la billetterie sur son site dédié.
+    </p>
+    <a class="btn-primary" style="display:inline-block; text-align:center; margin-top:2rem;"
+       href="https://www.festival-vezere.com" target="_blank" rel="noopener"
+       data-fr="Voir le site du festival" data-en="Visit the festival website">
+      Voir le site du festival
+    </a>
+  </div>
+</div>
+
+<!-- ── Footer ── -->
+<footer>
+  <p>© <span id="footerYear"></span> Château du Saillant</p>
+  <p>Le Saillant · Corrèze · France</p>
+</footer>
+
+<script src="js/lang.js?v=2"></script>
+</body>
+</html>
